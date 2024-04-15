@@ -1,0 +1,130 @@
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1 {
+    font-size: 4.4rem;
+    color: #1c3118;
+    text-align: center;
+    margin: 0;
+    position: relative;
+  }
+
+h1::before {
+    content:"Bmi";
+    font-family: "Dancing Script", cursive;
+    position: absolute;
+    color: red;
+    top: -1.5rem;
+    left: 0;
+    right: 0;
+
+}
+
+
+
+button {
+    background-color: #e30820;
+  border-color: #e30820;
+  color: #fff;
+  border-radius: 32px;
+  font-weight: 500;
+  display: inline-block;
+  /* border: 2px solid; */
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 8px 32px;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+button:hover {
+    background-color: transparent;
+  border-color: #e30820;
+  color: #e30820;
+  border: 2px solid #e30820;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    border: 1px solid rgb(201, 198, 198);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 5rem;
+    padding: 6px 20px;
+    font-family: inherit;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #838f81;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    -webkit-transition: border-color .3s;
+    transition: border-color .3s;
+    margin-right: .3rem;
+}
+
+.input_container {
+    display: flex;
+    color: #1c3118;
+}
+
+.input_container input::placeholder {
+
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    color: #1c3118;
+
+
+}
+
+img {
+    width: 30rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 2rem;
+    color: #1c3118;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .red {
+    color: #e30820;
+  }
+  .blue {
+    color: #0860e3;
+  }
+  .green {
+    color: #088f2a;
+  }
+  .orange {
+    color: #db8f1d;
+  }
+  .yellow {
+    color: #dbc81d;
+  }
